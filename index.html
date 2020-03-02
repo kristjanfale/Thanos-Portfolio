@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/ee6a3745d9.js"></script>
+    <title>My Portfolio Website</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- INTRODUCTION -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Thanos</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Mad Titan</p>
+      <img src="img/thanos.jpg" alt="a picture of Thanos" class="intro__img" />
+    </section>
+
+    <!-- MY SERVICES -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">
+        What I do
+      </h2>
+      <div class="services">
+        <div class="service">
+          <h3>Conquer Planets</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
+            fugit dolorem corrupti vitae rem libero, error quod totam adipisci
+            ipsam temporibus, similique minus laboriosam. Saepe eum placeat?
+          </p>
+        </div>
+        <!-- / service -->
+        <div class="service">
+          <h3>Snapping</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            corporis expedita tempore? Eveniet asperiores perferendis voluptates
+            molestiae eum, sunt aspernatur tempora quibusdam fugiat est id.
+          </p>
+        </div>
+        <!-- / service -->
+        <div class="service">
+          <h3>Saving Universe</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+            accusantium quod laudantium minima, dolores cupiditate! Temporibus
+            assumenda iusto beatae rem labore, perspiciatis minima?
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="about" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Avengers destroyer from planet Titan
+      </p>
+
+      <div class="about__body">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
+          praesentium dicta error eos? Ex atque soluta quasi quos illum!
+          Aspernatur officiis accusantium, consectetur animi ducimus vel earum
+        </p>
+        <p>
+          voluptas non temporibus, nobis est fuga debitis tempore eos sint
+          mollitia cum laudantium explicabo aliquid deleniti placeat! Minus
+          consectetur officiis nulla vero quos.
+        </p>
+      </div>
+      <img
+        src="img/thanos-work.jpg"
+        alt="picture of Thanos"
+        class="about__img"
+      />
+    </section>
+
+    <!-- MY WORK -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="portfolio-item_1.html" class="portfolio__item">
+          <img
+            src="img/power_stone.jpg"
+            alt="portfolio_1"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="portfolio-item_2.html" class="portfolio__item">
+          <img
+            src="img/space_stone.jpg"
+            alt="portfolio_2"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a href="portfolio-item_3.html" class="portfolio__item">
+          <img
+            src="img/reality_stone.jpg"
+            alt="portfolio_3"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="portfolio-item_4.html" class="portfolio__item">
+          <img
+            src="img/soul_stone.jpg"
+            alt="portfolio_4"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 05 -->
+        <a href="portfolio-item_5.html" class="portfolio__item">
+          <img
+            src="img/time_stone.png"
+            alt="portfolio_5"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 06 -->
+        <a href="portfolio-item_6.html" class="portfolio__item">
+          <img
+            src="img/mind_stone.jpg"
+            alt="portfolio_6"
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <a
+        target="_top"
+        href="mailto:kristjan.fale@gmail.com"
+        class="footer__link"
+      >
+        thanos.titan@savior.unv
+      </a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="https://github.com/kristjanfale" class="social-list__link"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/kristjan-fale-7b422a177/"
+            class="social-list__link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://codepen.io/kristjanfale" class="social-list__link"
+            ><i class="fab fa-codepen"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.instagram.com/falekristjan/"
+            class="social-list__link"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
